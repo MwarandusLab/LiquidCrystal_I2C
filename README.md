@@ -1,5 +1,5 @@
 # LiquidCrystal_I2C
-LiquidCrystal Arduino library for I2C LCD displays
+This is Arduino Library for LCD Displays with I2C Display Adapter
 ## How to install the library
 #### **First:** Download the Zip folder of the project.
 
