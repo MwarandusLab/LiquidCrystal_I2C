@@ -1,0 +1,26 @@
+//Mwarandus Lab
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h> //lcd library
+
+LiquidCrystal_I2C lcd(0x27,20,4);  // set the LCD address to 0x27 for a 20 chars and 4 line display and use (0x27, 16,2) for a 16 char and 2 line display
+
+void setup()
+{
+  lcd.init();       // initialize the lcd 
+  lcd.backlight(); // turns on lcd backlight use lcd.nobacklight to disable backlight
+  
+  lcd.setCursor(4,0);
+  lcd.print("HELLO WORLD");
+  lcd.setCursor(7,1);
+  lcd.print("WELCOME");
+   lcd.setCursor(3,2);
+  lcd.print(" TO ");
+   lcd.setCursor(-1,3);
+  lcd.print("MWARANDUS LAB");
+}
+
+
+void loop()
+{
+}
