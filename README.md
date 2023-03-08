@@ -4,4 +4,6 @@ LiquidCrystal Arduino library for I2C LCD displays
 **First:** Download the Zip folder of the project.
 Then Open Your Arduino IDE
 
-![My Images](/Images/Arduino.png)
+![My Images](/Images/Zipped.png)
+
+Go to **Sketch** Then **Include Library** and **Add .Zip Library**
